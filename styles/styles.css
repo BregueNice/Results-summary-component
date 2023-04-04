@@ -73,6 +73,7 @@
     /* padding-right: 30px; */
     font-family: var(--fonte-principal);
     font-weight: 800;
+    font-size: 50px;
 }
 
 .texto__cinza__escuro{
@@ -187,6 +188,7 @@
         display: flex;
         justify-content: center;
         padding: 200px;
+        gap: 20px;
     }
 
     .container{
@@ -196,7 +198,11 @@
 
     .container__secundario{
         display: flex;
-        gap: 30px;
+        /* gap: 30px; */
+    }
+
+    .texto__lateral{
+        margin-top: 20px;
     }
 
     .container__itens{
@@ -204,6 +210,10 @@
     }
 
     .botao:hover{
-        background-color: var(--azul-violeta);
+        background-image: linear-gradient(var(--azul-claro),var(--azul-royal));
+    }
+
+    .container4{
+        margin-bottom: 40px;
     }
 }
