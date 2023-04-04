@@ -25,25 +25,37 @@
     height: 40vh;
     display: flex;
     align-items: center;
+    justify-content: center;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
 }
 
+
 .container__conteudo{
     padding-inline: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
 }
 
 .bola{
     border-radius: 100%;
     background-image: linear-gradient(var(--azul-royal),var(--azul-claro));
-    height: 110px;
-    width: 110px;
-    margin-inline: 65px;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-inline: 65px; */
 }
 
 .conteudo{
-    padding-left: 30px;
-    padding-top: 15px;
+    font-family: var(--fonte-principal);
+    /* padding-left: 30px;
+    padding-top: 15px; */
 }
 
 .branco{
@@ -58,7 +70,7 @@
 }
 
 .br{
-    padding-right: 30px;
+    /* padding-right: 30px; */
     font-family: var(--fonte-principal);
     font-weight: 800;
 }
@@ -83,7 +95,7 @@
     padding-bottom: 10px;
     font-weight: 800;
     color: var(--claro);
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .container__secundario{
