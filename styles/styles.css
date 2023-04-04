@@ -21,7 +21,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
 
 .container{
-    background-color: var(--azul-claro);
+    background-image: linear-gradient(var(--azul-claro),var(--azul-royal));
     height: 40vh;
     display: flex;
     align-items: center;
@@ -35,7 +35,7 @@
 
 .bola{
     border-radius: 100%;
-    background-color: var(--azul-violeta);
+    background-image: linear-gradient(var(--azul-royal),var(--azul-claro));
     height: 110px;
     width: 110px;
     margin-inline: 65px;
